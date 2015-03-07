@@ -1,0 +1,21 @@
+/*
+ * Fixed navbar on Bootstrap docs.
+ */
+
+body {
+  padding-top: 50px;
+}
+
+.bs-docs-nav {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  border-bottom: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  z-index: 1030;
+}
+
+.bs-docs-sidebar.affix {
+  top: 60px;
+}
