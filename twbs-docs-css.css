@@ -20,3 +20,8 @@ body {
 .bs-docs-sidebar.affix {
   top: 60px;
 }
+
+/* Hide Back-to-top anchor */
+.back-to-top {
+  display: none;
+}
