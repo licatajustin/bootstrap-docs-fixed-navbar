@@ -22,6 +22,8 @@ body {
 }
 
 /* Hide Back-to-top anchor */
-.back-to-top {
-  display: none;
+@media (min-width: 768px) {
+  .back-to-top {
+    display: none;
+  }
 }
