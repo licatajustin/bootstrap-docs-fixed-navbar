@@ -6,15 +6,17 @@ body {
   padding-top: 50px;
 }
 
-.bs-docs-nav {
+.bs-docs-nav,
+.bd-navbar {
   position: fixed;
   right: 0;
   left: 0;
   top: 0;
-  z-index: 1030;
   border-bottom: 0;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  z-index: 1030;
 }
 
 .bs-docs-sidebar.affix {
